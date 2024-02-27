@@ -1,0 +1,51 @@
+*{
+      margin: 0;
+      padding: 10px;
+      box-sizing: border-box;
+      font-family: sans-serif;
+      background: linear-gradient(to right, blue, red);
+  }
+
+body {
+      font-family: Arial, sans-serif;
+     }
+     
+     img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 300px;
+     }
+     .container {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+     }
+     
+     h1 {
+      font-size: 3rem;
+     }
+     
+     .countdown {
+      font-size: 2rem;
+      
+     }
+     
+     .countdown span {
+      display: inline-block;
+      width: 5rem;
+      margin: 0 1rem;
+     }
+    
+     #enter {
+      background-color: blue;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      cursor: pointer;
+     }
+     
+     #enter:hover {
+      background-color: darkblue;
+     }
